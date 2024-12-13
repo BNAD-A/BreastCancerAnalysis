@@ -22,42 +22,6 @@ Pour exécuter le projet, assurez-vous que les éléments suivants sont install�
 - Python 3.x
 - Bibliothèques requises : `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn` et `jupyter`.
 
-Installez les dépendances avec :
-```bash
-pip install -r requirements.txt
-```
-
-## Structure des Dossiers
-```
-BreastCancerAnalysis/
-|-- data/               # Fichiers du jeu de données
-|-- notebooks/          # Notebooks Jupyter pour l'analyse
-|-- models/             # Modèles sauvegardés
-|-- results/            # Visualisations et rapports produits
-|-- BreastCancerAnalysis.ipynb  # Notebook principal
-|-- README.md           # Documentation du projet
-|-- requirements.txt    # Dépendances Python
-```
-
-## Comment Exécuter le Projet
-1. Clonez le dépôt.
-   ```bash
-   git clone <repository_url>
-   ```
-2. Naviguez vers le répertoire du projet.
-   ```bash
-   cd BreastCancerAnalysis
-   ```
-3. Installez les dépendances.
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Ouvrez le notebook principal.
-   ```bash
-   jupyter notebook BreastCancerAnalysis.ipynb
-   ```
-5. Suivez les étapes dans le notebook pour exécuter l'analyse.
-
 ## Étapes Clés dans le Notebook
 1. **Charger le jeu de données :** Importer et explorer les données.
 2. **Pré-traitement :** Nettoyer et préparer les données pour la modélisation.
